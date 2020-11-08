@@ -1,0 +1,113 @@
+body {
+  
+  BACKGROUND-REPEAT: repeat;
+    background-color: #e4c8e1;
+}
+  .container1{
+      margin-top: 150px;
+    
+      
+  }
+  .menu{
+      width: 100%;
+      height: 50px;
+      background-color: rgb(255, 255, 255);
+  }             
+  .container2{
+      height: 800px;
+  }
+  .row{
+      display: flex;
+      justify-content: space-between;
+      }
+      .imag{
+          height: 800px;
+          
+      }
+  
+     /*---------------------------------------------------------------------*/
+  /*/////////////////////////////////*/
+  /*/////////  chat styles  /////////*/
+  /*/////////////////////////////////*/
+  
+   
+    h1{
+      padding: 12px; 
+      width: 1024px;
+      margin: 0px auto; 
+      color: white; 
+    }
+    #container{
+      width: 310px;
+      min-height: 100px;
+      margin: 0px auto;
+      background-color: white;
+      border: 1px solid #333;
+        
+    }
+    #controls{
+      width: 310px;
+      min-height: 100px;
+      margin: 0px auto;
+    }
+    textarea{
+      
+      resize: none;
+      width: 310px;
+    }
+    #send{
+      font-size: 24px; 
+      position: absolute; 
+    }
+    .bttn{
+        float: right;
+    }
+  
+    /***********stars rating color************/
+    .checked{
+      color: orange;
+    }
+    .stars{
+        margin-left: 40%;
+    }
+  /* .logo1:active {
+    opacity: 20%;
+    display: none;
+  }
+  .logo1:active .none {
+    display: block;
+  } */
+  
+  
+  .description1{
+    display: none;
+  
+  }
+  
+  .logo1:hover + .description1{
+    display: block;
+  }
+  
+  .none{
+    display: none;
+  }
+  /******************************/
+  .box {
+    background-color: #218D9B;
+    height: 100px;
+    width: 100px;
+  }
+  
+  .transform {
+    -webkit-transition: all 2s ease;  
+    -moz-transition: all 2s ease;  
+    -o-transition: all 2s ease;  
+    -ms-transition: all 2s ease;  
+    transition: all 2s ease;
+  }
+  
+  .transform-active {
+    background-color: #45CEE0;
+    height: 200px;
+    width: 200px;
+  }
